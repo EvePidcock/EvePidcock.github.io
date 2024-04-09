@@ -1,4 +1,3 @@
-/*All code, unless marked, was made by me.*/
 body, html{
 width: 100%;
 height: 100%;
@@ -14,16 +13,15 @@ margin: 0;
 padding: 0;
 background: white;
 overflow: hidden;
-background: rgba(0,0,0,0.3);
-border-bottom: 1px solid black;
+background: #1d2b61;
 }
 nav li{
-float: left;
+float: right;
 }
 
 nav li a{
 display: block;
-color: black;
+color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -49,30 +47,37 @@ background: #1d2b61;
   min-height: 100vh;
 }
 #content-wrap {
-  padding-bottom: 150px;    /* Footer height */
-  padding-right: 50px;
+  padding-bottom: 100px;    /* Footer height */
   padding-left: 50px;
+  padding-right: 50px;
 }
 footer{
 width: 100%;
-height: 150px;
+height: 75px;
 text-align: center;
 position: absolute;
 bottom: 0;
-background: linear-gradient(to right, #1d2b61, #ffc60d);
-padding: 10px;
+background: #1d2b61;
+padding-top: 20px;
+padding-bottom: 20px;
 float: clear;
 }
+footer p{
+  color: white
+}
 #footerlinks a{
-color: white;
+color: #ffc60d;
 text-decoration: none;
 }
 #footerlinks a:hover{
 color: white;
 text-decoration: underline;
 }
+#footerlabels{
+  color: #ffc60d;
+}
 .name{
-
+color: white
 }
 .hidden{
 display: none;
@@ -81,7 +86,7 @@ display: none;
 
 #bottomlink{
 text-decoration: none;
-color: black;
+color: white;
 }
 #bottomlink:hover{
 text-decoration: underline;
