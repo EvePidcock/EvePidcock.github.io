@@ -83,7 +83,9 @@ color: white
 display: none;
 }
 
-
+#main-block{
+  width: 50%;
+}
 #bottomlink{
 text-decoration: none;
 color: white;
