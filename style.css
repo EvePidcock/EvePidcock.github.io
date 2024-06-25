@@ -4,6 +4,22 @@ height: 100%;
 margin: 0;
 }
 
+a:link{
+  color: #324aa8;
+}
+
+a:visited{
+  color: #1d2b61;
+}
+
+a:hover{
+  color: #ffc60d;
+}
+
+a:active{
+  color: #1d2b61;
+}
+
 #navbar{
 margin-bottom: 20px;
 }
@@ -36,6 +52,15 @@ color: white;
 
 nav li a:active{
 color: #ffc60d;
+}
+
+nav li a:visited{
+  color: white;
+}
+
+#talk-title{
+  text-indent: 4em;
+  font-style: italic;
 }
 
 #navActive{
